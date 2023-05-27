@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  list-style: none;
+  padding: 10px 40px 10px 40px;
+}
+.nav-item-container {
+  width: 30%;
+  cursor: pointer;
+}

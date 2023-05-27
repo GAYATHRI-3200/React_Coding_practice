@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cardContainer {
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  border-radius: 20px;
+}
+
+.yellow {
+  background-color: #ffc533;
+  height: 100%;
+  width: 50%;
+  padding: 30px;
+}
+.blue {
+  background-color: #0f172a;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.counterText {
+  color: #ffbf1f;
+}
+button {
+  background-color: #ffc533;
+  padding: 10px 15px;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+input {
+  height: 40px;
+  width: 250px;
+}
+.itemsCount {
+  color: #334155;
+}
+.noUser {
+  width: 300px;
+}
+li {
+  list-style: none;
+  color: #334155;
+  font-size: 20px;
+  font-weight: 600;
+}

@@ -1,0 +1,11 @@
+/* Write your CSS code here */
+.about-container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-heading {
+  color: Green;
+}

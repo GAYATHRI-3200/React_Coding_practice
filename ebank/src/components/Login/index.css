@@ -1,0 +1,52 @@
+.login {
+  background-color: #152850;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginCard {
+  display: flex;
+  background-color: #e0eefe;
+  width: 80%;
+  height: 80%;
+  border-radius: 30px;
+}
+
+.imgBg {
+  background-color: #e0eefe;
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgBg img {
+  width: 100%;
+}
+.formCard {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formCard input {
+  width: 200px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.formCard p {
+  color: red;
+}
+.login button {
+  background-color: #1565d8;
+  padding: 10px 15px;
+  border-radius: 30px;
+  color: #fff;
+  border: 0;
+  width: 100%;
+}
